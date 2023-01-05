@@ -1,0 +1,38 @@
+body {
+  font-weight: 400;
+  font-style: normal;
+  min-width: 320px;
+  background: #1b1b20;
+  color: #ffffff;
+
+  .lock & {
+    overflow: hidden;
+    touch-action: none;
+  }
+}
+
+[class*="__container"] {
+  // > 1199
+  @media (min-width: $pc) {
+    max-width: 1302px;
+    padding: 0 30px;
+  }
+
+  // 768 - 1199
+  @media (min-width: $tablet) {
+    max-width: 748px;
+    padding: 0 20px;
+  }
+
+  // 480 - 768
+  @media (min-width: $mobile) {
+    max-width: 396px;
+    padding: 0 10px;
+  }
+
+  // 320 - 480
+  @media (min-width: $mobileSmall) {
+    max-width: 320px;
+    padding: 0 10px;
+  }
+}
