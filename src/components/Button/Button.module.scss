@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  font-family: "Montserrat";
+  padding: 7px 24px 8px 28px;
+
+  background: linear-gradient(4.19deg, #2c90f7 -17.59%, #05c0cc 115.3%);
+  box-shadow: inset 0px -4px 12px rgba(0, 0, 0, 0.22),
+    inset 0px 1px 2px rgba(239, 232, 232, 0.6);
+  backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  gap: 6px;
+  transition: background 0.3s ease-in-out;
+  &:hover {
+    background: linear-gradient(73.87deg, #057efb 4.86%, #0df0ff 97.42%);
+  }
+}
+
+.header-btn {
+  margin-left: 26px;
+  margin-right: -2px;
+}

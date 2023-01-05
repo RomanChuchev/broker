@@ -6,14 +6,17 @@ const Person = lazy(() => import("../pages/Person"));
 
 const routes = [
   {
+    name: "home",
     element: <Home />,
     path: "/",
   },
   {
+    name: "auth",
     element: <Auth />,
     path: "/auth",
   },
   {
+    name: "person",
     element: <Person />,
     path: "/person",
   },
