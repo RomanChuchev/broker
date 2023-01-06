@@ -13,21 +13,22 @@ body {
 
 .container {
   margin: 0 auto;
-  // 320 - 480
-  @media (min-width: $mobileSmall) {
-    max-width: 320px;
+
+  // 320 - 380
+  @media (min-width: 320px) {
+    max-width: 95.652vw;
     padding-left: 10px;
     padding-right: 10px;
   }
-  // 480 - 768
+  // 380 - 768
   @media (min-width: $mobile) {
-    max-width: 396px;
+    max-width: 95.652vw;
     padding-left: 10px;
     padding-right: 10px;
   }
   // 768 - 1199
   @media (min-width: $tablet) {
-    max-width: 748px;
+    max-width: 97.396vw;
     padding-left: 20px;
     padding-right: 20px;
   }

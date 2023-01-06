@@ -9,12 +9,14 @@ interface HeaderProprs {}
 
 const Header: React.FC<HeaderProprs> = () => {
   return (
-    <header className={cl(s.header, "container")}>
-      <Logo />
-      <NavBar />
-      <Button onClick={() => {}} className="header-btn">
-        <Profile /> Вход
-      </Button>
+    <header className={cl(s.header)}>
+      <div className={cl(s.container, "container")}>
+        <Logo />
+        <NavBar />
+        <Button onClick={() => {}} className="header-btn">
+          <Profile /> Вход
+        </Button>
+      </div>
     </header>
   );
 };

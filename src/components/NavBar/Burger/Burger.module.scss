@@ -15,7 +15,7 @@
 
       border-radius: 1.25rem;
       background-color: #fff;
-      transition: all 0.5s ease-out;
+      transition: all 0.3s ease-out;
 
       &:nth-child(1) {
         transition: top 0.5s cubic-bezier(0.21, 0.83, 0.26, 0.87) 0.3s,
@@ -34,7 +34,7 @@
     }
     &.open {
       span {
-        transition: all 0.3s ease-out;
+        transition: all 0.2s ease-out;
 
         &:nth-child(1) {
           transform: translateY(250%) rotate(45deg);
@@ -43,7 +43,7 @@
         }
         &:nth-child(2) {
           opacity: 0;
-          transform: translateY(200%);
+          transform: translateY(100%) rotate(45deg);
         }
         &:last-child {
           width: 1.25rem;

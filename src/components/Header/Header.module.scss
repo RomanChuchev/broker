@@ -1,5 +1,14 @@
 .header {
   padding-top: 3.0625rem;
+  z-index: 900;
+}
+.container {
   align-items: center;
   display: flex;
+}
+
+@media (max-width: 1199px) {
+  .header {
+    padding-top: 1.875rem;
+  }
 }

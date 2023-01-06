@@ -1,8 +1,14 @@
 import s from "./Burger.module.scss";
 import cl from "classnames";
-const Burger = () => {
+
+interface BurgerProps {
+  onClick: () => void;
+  isOpen: boolean;
+}
+
+const Burger: React.FC<BurgerProps> = ({ onClick, isOpen }) => {
   return (
-    <div className={cl(s.burger)}>
+    <div onClick={onClick} className={cl(s.burger, isOpen && s.open)}>
       <span></span>
       <span></span>
       <span></span>
