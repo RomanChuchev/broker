@@ -1,0 +1,74 @@
+.investing {
+  width: 100vw;
+  display: flex;
+}
+.img1 {
+  width: 448px;
+  height: 520px;
+  margin-left: -28%;
+  margin-top: 14px;
+  pointer-events: none;
+  user-select: none;
+}
+.description {
+  width: 438px;
+  height: 336px;
+  margin-top: 130px;
+  margin-left: -110px;
+}
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 33px;
+}
+.text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 2px;
+  margin-bottom: 57px;
+}
+
+.man {
+  position: relative;
+  margin-top: -45px;
+  margin-left: -110px;
+  z-index: 1;
+}
+
+.img2 {
+  min-width: 985.05px;
+  min-height: 830px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.text1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  transform: rotate(0.39deg);
+
+  position: absolute;
+  width: 144.68px;
+  height: 48.93px;
+  left: 217px;
+  top: 218px;
+}
+.text2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  transform: rotate(-0.31deg);
+
+  position: absolute;
+  width: 140.06px;
+  height: 42.95px;
+  left: 580px;
+  top: 230px;
+}
