@@ -21,14 +21,14 @@ body {
     padding-right: 10px;
   }
   // 380 - 768
-  @media (min-width: $mobile) {
-    max-width: 95.652vw;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+  // @media (min-width: $mobile) {
+  //   max-width: 95.652vw;
+  //   padding-left: 10px;
+  //   padding-right: 10px;
+  // }
   // 768 - 1199
-  @media (min-width: $tablet) {
-    max-width: 97.396vw;
+  @media (min-width: 700px) {
+    max-width: 99.609vw;
     padding-left: 20px;
     padding-right: 20px;
   }

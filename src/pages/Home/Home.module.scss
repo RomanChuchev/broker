@@ -1,20 +1,17 @@
 .investing {
   width: 100vw;
+  height: 830px;
+  background: url("../../assets/images/bitcoin.png") 0.9% 5% no-repeat;
+  position: relative;
+}
+.container {
   display: flex;
 }
-.img1 {
-  width: 448px;
-  height: 520px;
-  margin-left: -28%;
-  margin-top: 14px;
-  pointer-events: none;
-  user-select: none;
-}
+
 .description {
   width: 438px;
   height: 336px;
-  margin-top: 130px;
-  margin-left: -110px;
+  margin-top: 131px;
 }
 .title {
   font-family: "Montserrat";
@@ -22,7 +19,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 49px;
-  margin-bottom: 33px;
+  margin-bottom: 32px;
 }
 .text {
   font-family: "Montserrat";
@@ -30,22 +27,16 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  padding-left: 2px;
   margin-bottom: 57px;
 }
 
 .man {
-  position: relative;
-  margin-top: -45px;
-  margin-left: -110px;
-  z-index: 1;
-}
-
-.img2 {
-  min-width: 985.05px;
-  min-height: 830px;
-  pointer-events: none;
-  user-select: none;
+  background: url("../../assets/images/bg-1.png") 71% -44px no-repeat;
+  width: 985px;
+  height: 830px;
+  position: absolute;
+  left: 34.6%;
+  background-size: contain;
 }
 
 .text1 {
@@ -57,8 +48,8 @@
   position: absolute;
   width: 144.68px;
   height: 48.93px;
-  left: 217px;
-  top: 218px;
+  left: 21.7%;
+  top: 20.9%;
 }
 .text2 {
   font-weight: 600;
@@ -69,6 +60,44 @@
   position: absolute;
   width: 140.06px;
   height: 42.95px;
-  left: 580px;
-  top: 230px;
+  left: 58.8%;
+  top: 22.3%;
+}
+
+@media (max-width: 990px) {
+  .investing {
+    background: url("../../assets/images/bitcoin.png") -71% -12% no-repeat;
+  }
+  .man {
+    background: url("../../assets/images/bg-2.png") 0 0 no-repeat;
+    top: -5.9%;
+    left: 27.6%;
+    height: 570px;
+    width: 653px;
+  }
+  .text1 {
+    font-size: 12.3614px;
+    line-height: 15px;
+    left: 18.9%;
+    top: 26.4%;
+  }
+  .text2 {
+    font-size: 12.3614px;
+    line-height: 15px;
+    left: 57.8%;
+    top: 27.8%;
+  }
+  .title {
+    font-size: 27px;
+    line-height: 33px;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .description {
+    width: 310px;
+    height: 291px;
+    margin-top: 100px;
+  }
 }
